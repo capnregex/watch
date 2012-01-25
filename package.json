@@ -1,0 +1,22 @@
+{
+  "author": "Robert Ferney <capnregex@gmail.com> (http://github.com/capnregex)",
+  "name": "watch",
+  "description": "Watch files for changes, beautify, lint, and run tests.",
+  "version": "0.0.0",
+  "homepage": "http://github.com/capnregex/watch",
+  "repository": {
+    "url": ""
+  },
+  "main": "./lib/watch",
+  "scripts": {
+    "test": "mocha",
+    "watch": "./bin/watch.js"
+  },
+  "engines": {
+    "node": "~0.6.6"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
