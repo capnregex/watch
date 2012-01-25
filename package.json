@@ -5,7 +5,7 @@
   "version": "0.0.0",
   "homepage": "http://github.com/capnregex/watch",
   "repository": {
-    "url": ""
+    "url": "git://github.com/capnregex/watch.git",
   },
   "main": "./lib/watch",
   "scripts": {
@@ -15,8 +15,17 @@
   "engines": {
     "node": "~0.6.6"
   },
-  "dependencies": {},
+  "dependencies": {
+    "js-beautify": "git://github.com/capnregex/js-beautify.git",
+    "jslint": "git://github.com/reid/node-jslint.git",
+    "mocha": "*",
+    "kyuri": "*",
+    "should": "*",
+    "inflections": "*"
+  },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "kyuri": "*",
+    "should": "*"
   }
 }
